@@ -10,3 +10,5 @@ Rscript hello-world.R
 It was edited in branch S1 using the GitHub text editor
 
 README, LICENSE and .gitignore were committed directly to master branch
+
+The i-th branch of master (eg. S1, S2,S3...) signifies work done in Task number i of GCI
