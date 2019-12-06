@@ -28,6 +28,6 @@ tempolar(japf, color = "FF00ED" , title = "Daily", plottype = "l", timescale = "
 tempolar(japf, color = "FFD000", title = "Monthly", plottype = 'r', timescale = 'm');
 
 #need to convert japf#Date_collected to Date class
-japf#Date_collected <- as.Date(japf#Date_collected, format = "%Y/%m/%d");
+japf$Date_collected <- as.Date(japf$Date_collected, format = "%Y/%m/%d");
 distrigraph(japf, ptype = "efforts", col = "orange", cumulative = T, type = "l");
 distrigraph(japf, ptype = "effortspecies", col = "#009EFF", cumulative = F, type = "o");
